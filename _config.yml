@@ -39,8 +39,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace:
   
@@ -90,10 +90,3 @@ archive_generator:
   monthly: true
   daily: false
   order_by: -date
-
-## 关闭默认的代码高亮
-highlight:
-  enable: false
-  line_number: false
-  auto_detect: false
-  tab_replace:
